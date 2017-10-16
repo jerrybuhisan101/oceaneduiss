@@ -1,0 +1,15 @@
+Notes :
+
+5 buttons - file:///C:/Users/Work%20Account/Desktop/iss2a/resources/theme2/lesson1/lesson1c1.html
+
+6 buttons - file:///C:/Users/Work%20Account/Desktop/iss2a/resources/theme2/lesson2/lesson2c1.html
+
+4 buttons - file:///C:/Users/Work%20Account/Desktop/iss2a/resources/theme2/lesson3/lesson3c1.html
+
+3 buttons - file:///C:/Users/Work%20Account/Desktop/iss2a/resources/theme4/lesson3/lesson3c1.html
+
+6 blocks and 5 buttons -file:///C:/Users/Work%20Account/Desktop/iss2a/resources/theme2/lesson4/lesson4.1.html
+
+5 blocks and 4 buttons - file:///C:/Users/Work%20Account/Desktop/iss2a/resources/theme2/lesson3/lesson3c1.html
+
+lesson6 - file:///C:/Users/Work%20Account/Desktop/iss2a/resources/theme2/lesson6/lesson6.1.html}
