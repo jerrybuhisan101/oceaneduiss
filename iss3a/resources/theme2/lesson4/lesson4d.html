@@ -1,0 +1,82 @@
+<html>
+<head><title>ISS 3A</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<style>
+    img {
+max-width: 100% ; 
+height: auto;
+}
+</style>
+
+<div class = "image-map">
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-lg-12 col-lg-offset-1">
+
+
+<audio autoplay hidden>
+  <source src="mp3/lesson4d.mp3" type="audio/mpeg">
+</audio>
+
+<!--start-->
+<img src="lesson4d.JPG" usemap="#image-map">
+
+<map name="image-map">
+       <area target="_self" alt="PlayButton" title="PlayButton" href="#" coords="665,67,712,112" shape="rect" onclick=play() >
+
+    <area target="_self" alt="Home Button" title="Home Button" href="../../../index.html" coords="406,719,448,765" shape="rect">
+    <area target="_self" alt="Back to list button" title="Back to list button" href="lesson4.1.html" coords="452,721,486,764" shape="rect">
+
+</map>
+
+<!--End-->
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+
+<!--AUDIO FILES -->
+<audio id="audio1" src="mp3/lesson4d1.mp3"></audio>
+<audio id="audio2" src=""></audio>
+<audio id="audio3" src=""></audio>
+<!--END -->
+
+<script language="javascript" type="text/javascript">
+
+function play(){
+    var audio = document.getElementById('audio1');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+
+
+
+function play2(){
+    var audio = document.getElementById('audio2');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+
+function play3(){
+    var audio = document.getElementById('audio3');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+</script>
+</html>
